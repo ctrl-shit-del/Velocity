@@ -1,322 +1,119 @@
-# Velocity
-
-**The Multi-Agent Engineering Ecosystem**
+<div align="center">
+  
+# ⚡ VELOCITY
+**The Sovereign Developer Ecosystem**
 
 [![AWS AI Hackathon](https://img.shields.io/badge/AWS-AI%20for%20Bharat-orange)](https://aws.amazon.com)
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Built with AWS](https://img.shields.io/badge/Built%20with-AWS-FF9900?logo=amazon-aws)](https://aws.amazon.com)
 
----
+> *Democratizing elite engineering for the AI era. Code. Connect. Conquer.*
 
-## ⚡ The Core Idea
-
-Velocity is a unified, **model-agnostic** development ecosystem that eliminates technical fragmentation and democratizes high-end engineering. It collapses the distance between an initial idea and a finished product by fusing a high-performance IDE, a collaborative web portal, and a mobile career engine into a single, high-speed flow.
-
-At its core, Velocity provides a **Thin-Client** experience, offloading heavy compute to the AWS cloud. This ensures that every developer—whether on a budget laptop (Velocity Web) or a high-end workstation (Velocity Desktop)—has equal access to an orchestratable set of AI agents. **Users choose their preferred models** (e.g., Claude, Gemini, GPT, or others available on Bedrock) and assign them to roles; those agents run in parallel via AWS Step Functions to deliver sub-second updates across codebases.
-
-The ecosystem moves beyond traditional resumes with the **Verified Skill Wallet**. Every coding action and collaborative session generates immutable proof of talent. Through AI-narrated playbacks and secure behavioral profiling in AWS Nitro Enclaves, a developer’s skills are verified in real time, so recruiters can discover talent based on **actual execution**, not claims.
-
-**The three-tier ecosystem:**
-
-- **Velocity Web (Novice Entryway)** — Zero-install, browser-based IDE for learners. No high-end hardware required; AWS AppStream 2.0 streams a full-power environment. Novices get AI roadmaps, skill gates, and zero-config environments so they can start coding in seconds.
-- **Velocity Desktop (Pro Powerhouse)** — Native IDE for deep work. Full file system access with intensive AI orchestration offloaded to Amazon Bedrock. Parallel multi-agent engine for maximum velocity.
-- **Velocity Mobile (Career Engine)** — Companion app for Skill Wallet, professional feed, Save-Gate approvals, and recruiter matchmaking. Social and hiring live here so the IDE stays in Zen mode for deep work.
-
-By tying together learning, collaboration, and opportunity, Velocity ensures that geography or hardware never cap a builder’s trajectory. It is the engine that proves talent and accelerates growth for the next generation of global engineers.
+</div>
 
 ---
 
-## 🚀 Pitch (Presentation-Ready)
+## 🎬 See Velocity in Action
 
-Velocity is a **multi-platform, model-agnostic** development ecosystem built to democratize high-end engineering. We remove the **Hardware Barrier** and the **Fragmentation Tax** by combining a cloud-powered IDE, a real-time collaborative web portal, and a mobile career engine in one flow. Whether you’re a student on a budget Chromebook (Velocity Web) or a senior engineer on Velocity Desktop, you get the same access to a **parallel, user-defined agent setup**—orchestrating models like Claude, Gemini, and GPT in sync, **according to your choice**, not ours.
-
-Built on AWS, Velocity shifts the industry from static, unverifiable resumes to a **Verified Skill Wallet**. Every line of code and every collaborative session across Web and Desktop is captured to create immutable proof of talent. Velocity isn’t just an IDE; it’s a distributed career engine so that location or device never limit your professional velocity.
-
----
-
-## 🎯 Problem Statement
-
-Modern developers face four critical challenges:
-
-1. **Hardware barriers** — High-performance development often requires expensive hardware (₹1L+), excluding many talented developers in emerging markets.
-2. **Productivity fragmentation** — Developers context-switch between 6+ tools (IDE, Git, Zoom, Slack, LinkedIn) to ship one project.
-3. **Single-model limitations** — One AI assistant can’t excel at logic, UI, and architecture at once; users want to pick the right model for each job.
-4. **Skill verification crisis** — In an AI-heavy world, resumes can’t prove real capability vs. AI-generated work.
+[![Velocity: The Multi-Agent Engineering Ecosystem](https://img.youtube.com/vi/OABx6sN2ydQ/maxresdefault.jpg)](https://youtu.be/OABx6sN2ydQ)
+*(Click the image above to watch the 60-second product demo)*
 
 ---
 
-## 💡 Solution: Triple-Threat Strategy
+## 🚀 Overview
 
-### 1. Velocity Web — The Novice Entryway
+**Velocity** is a multi-platform, **model-agnostic** development ecosystem that eliminates the "Fragmentation Tax" and democratizes high-end engineering. It collapses the distance between an initial idea and a finished product by fusing a high-performance IDE, a collaborative web portal, and a mobile career engine into a single, high-speed flow.
 
-- **Purpose:** Zero-install, browser-based IDE for students and learners without high-end hardware.
-- **Mechanism:** **AWS AppStream 2.0** streams a full development environment to any browser so a budget laptop behaves like a professional workstation.
-- **Impact:** AI roadmaps, skill gates that unlock on verified execution, zero-config environments, and Save-Gate collaboration so novices can contribute to pro projects safely. Every action can feed into the Verified Skill Wallet via Nitro Enclaves.
+Built entirely on AWS, Velocity provides a **Thin-Client** experience. Whether you’re a student on a budget ₹20,000 Chromebook or a senior engineer on a workstation, you get equal access to a **Parallel Multi-Agent Engine**. You choose the AI models (Claude, Gemini, GPT), and Velocity orchestrates them to work in sync. 
 
-### 2. Velocity Desktop — The Pro Powerhouse
-
-- **Purpose:** Native, professional-grade IDE for high-velocity development.
-- **Mechanism:** Uses the local file system for speed and offloads heavy AI orchestration to **Amazon Bedrock** so the machine stays responsive.
-- **Impact:** **Parallel Multi-Agent Engine** — users assign **their chosen models** to different roles (e.g., one for logic, one for UI, one for architecture). Agents run in parallel via **AWS Step Functions**, cutting development time by up to ~60%.
-
-### 3. Velocity Mobile — The Career Engine
-
-- **Purpose:** Command center and career hub: approvals, profile, and hiring.
-- **Mechanism:** Remote Save-Gate approval, build/conflict alerts, and the **Verified Skill Wallet** with AI-narrated playbacks.
-- **Impact:** Skill hashes verified by **AWS Nitro Enclaves**, recruiter matchmaking, and a professional feed—no memes, only proof-of-work and collab opportunities.
+We are shifting the industry from static, unverifiable resumes to a **Verified Skill Wallet**, where every line of code becomes immutable proof of talent.
 
 ---
 
-## 🏗️ Core Innovations
+## 🛑 The Problem vs. ✅ The Velocity Solution
 
-| Innovation | Description |
-|------------|-------------|
-| **Thin-Client Architecture** | Heavy compute runs on AWS; Web and Desktop both get sub-second velocity regardless of local hardware. |
-| **Parallel Multi-Agent Engine** | **User-choice, model-agnostic.** You pick which LLMs handle logic, UI, and architecture; Step Functions triggers them in parallel. |
-| **Context Janitor** | Real-time service (Lambda + **Amazon Aurora** vector store) that keeps a single “source of truth” so all agents and teammates stay synced and merge conflicts are avoided. |
-| **Verified Skill Wallet** | Privacy-first behavioral profiling in **AWS Nitro Enclaves**; outputs only verified skill hashes and AI-narrated playbacks—never raw code. |
-| **Save-Gate Collaboration** | Integrated voice/video (**Amazon Chime SDK**) with version authority: real-time co-editing, but the project owner (or co-leader) has final save control. |
-
----
-
-## 🏗️ Architecture Summary
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                     CLIENT LAYER                             │
-│   Web (Browser) │ Desktop (Electron) │ Mobile (Companion)   │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                   API GATEWAY LAYER                          │
-│        API Gateway (REST) │ AppSync (GraphQL)                │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                  APPLICATION LAYER                           │
-│  AppStream 2.0 │ Step Functions │ Lambda │ Chime SDK         │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                      AI LAYER                                │
-│  Amazon Bedrock (User-Selected: Claude │ Gemini │ GPT │ …)   │
-└─────────────────────────────────────────────────────────────┘
-                              ↓
-┌─────────────────────────────────────────────────────────────┐
-│                     DATA LAYER                               │
-│  Aurora (Vector) │ ElastiCache Redis │ S3 │ Nitro Enclaves   │
-└─────────────────────────────────────────────────────────────┘
-```
+| The Industry Friction | The Velocity Solution |
+| :--- | :--- |
+| **Hardware Barrier:** High-end dev requires expensive machines (₹1L+), excluding millions in emerging markets. | **Thin-Client Architecture:** AWS AppStream 2.0 streams a powerhouse IDE to any browser. Budget laptops become supercomputers. |
+| **Productivity Fragmentation:** Devs context-switch across 6+ tools (IDE, Git, Zoom, Slack, LinkedIn). | **The Sovereign Workspace:** A unified ecosystem (Web, Desktop, Mobile) for deep work, collaboration, and hiring. |
+| **Single-Model Limits:** One AI can't excel at logic, UI, and architecture simultaneously. | **Parallel Multi-Agent Engine:** User-defined models run simultaneously via AWS Step Functions for sub-second builds. |
+| **The Trust Gap:** Resumes are static; AI-generated code makes it impossible to verify true skill. | **Verified Skill Wallet:** AWS Nitro Enclaves process behavior to generate immutable, verified proof-of-process. |
 
 ---
 
-## ☁️ AWS Services Used
+## 🏗️ Core Technical Innovations
 
-| Service | Purpose | Key Feature |
-|---------|---------|-------------|
-| **Amazon Bedrock** | Multi-model AI orchestration | Model-agnostic, user-selected LLMs; Cross-Region Inference for sub-3s latency |
-| **AWS Step Functions** | Parallel agent coordination | Triggers multiple user-chosen agents simultaneously |
-| **AWS AppStream 2.0** | Cloud-streamed IDE | Delivers high-performance dev environment to any browser (Thin Client) |
-| **Amazon Aurora** (Vector Search) | Shared memory | Context Janitor maintains embeddings for all agents and users |
-| **AWS Nitro Enclaves** | Secure skill profiling | Behavioral data processed in isolated env; only skill hashes and attestations leave |
-| **Amazon Chime SDK** | Real-time collaboration | Voice/video/screen sharing inside Web and Desktop IDE |
-| **AWS Lambda** | Context Janitor | Keeps shared project state consistent; prunes and syncs context |
-| **Amazon ElastiCache** | Session state | Redis for real-time cursor positions and draft state |
-| **Amazon S3** | Code/artifact storage | Versioned repositories and assets |
-| **AWS Cognito** | Authentication | User management, MFA |
-| **Amazon API Gateway** | REST APIs | Rate-limited, JWT-validated endpoints |
-| **AWS AppSync** | GraphQL subscriptions | Real-time multi-cursor and context sync |
-| **AWS KMS** | Encryption | Customer-managed keys for data protection |
+
+
+* **🧠 Model-Agnostic Orchestration:** You aren't locked into one AI. Pick which LLM handles your logic, UI, and architecture.
+* **⚡ Parallel Execution:** **AWS Step Functions** triggers your chosen agents at the exact same time, cutting development time by up to 60%.
+* **🧹 The Context Janitor:** A real-time background service powered by **AWS Lambda** and **Amazon Aurora (Vector)** that maintains a single “source of truth” so all agents and human teammates stay perfectly synced.
+* **🛡️ Privacy-First Verification:** Behavioral profiling happens inside **AWS Nitro Enclaves**. Only verified skill hashes and AI-narrated playbacks leave the enclave—never your raw, private code.
+* **🤝 Save-Gate Collaboration:** Integrated voice/video (**Amazon Chime SDK**) with version authority. Live pair-programming where the project owner retains final save control.
 
 ---
 
-## 🎬 Scenarios
+## 🌐 The Triple-Threat Ecosystem
 
-### Scenario 1: The Bharat Student (Hardware Access)
-
-- **User:** A student with a budget laptop (4GB RAM) and limited connectivity.
-- **Action:** Opens **Velocity Web**. AWS AppStream 2.0 streams a high-performance workspace to the browser.
-- **Result:** Uses AI roadmaps and skill gates to learn full-stack development. Hardware doesn’t limit potential; they code with the same velocity as on a high-end machine. Progress feeds the Skill Wallet.
-
-### Scenario 2: The Parallel Power-User (Multi-Agent Speed)
-
-- **User:** A senior developer building a feature with complex logic and polished UI.
-- **Action:** In **Velocity Desktop**, they assign **their chosen** model A to backend logic and model B to UI. They trigger “Generate.”
-- **Result:** Step Functions runs both agents in parallel. The Context Janitor keeps the UI agent aligned with the backend. A multi-hour task is done in minutes.
-
-### Scenario 3: The Global Team Lead (Collaboration)
-
-- **User:** A lead in Bangalore; a contributor in London finishes at 4 AM.
-- **Action:** London dev pushes a “Draft State.” Lead opens **Velocity Mobile**, joins an in-editor call (Chime), and sees an AI-generated summary of changes.
-- **Result:** Lead uses Save-Gate to “Final Save.” No merge conflicts thanks to Shared Memory. Authority stays with the owner without blocking the team.
-
-### Scenario 4: Frictionless Hiring (Skill Verification)
-
-- **User:** A recruiter looking for a verified “System Design” expert.
-- **Action:** Finds a developer on Velocity. Instead of a bullet-point resume, they watch a 30-second **AI-narrated playback** of the developer refactoring a high-traffic API.
-- **Result:** Nitro Enclave “Verified” badge proves authenticity. Interview invite is sent without multiple screening rounds.
-
-### Scenario 5: Zen-Mode Specialist (Deep Work & Privacy)
-
-- **User:** An engineer who wants focus and data control.
-- **Action:** Enables “Zen Mode” in the IDE. Social feed and Learning Boost move to **Velocity Mobile** only.
-- **Result:** Deep work in the IDE; Privacy Ledger and Skill Wallet updates are visible in the app. User chooses which skill hashes to publish.
+1. **Velocity Web (Novice Entryway):** Zero-install, browser-based IDE. AWS AppStream 2.0 streams a full-power environment to learners. Features AI roadmaps and skill gates to start coding in seconds.
+2. **Velocity Desktop (Pro Powerhouse):** Native IDE for deep work. Leverages local file systems while offloading intensive AI orchestration to Amazon Bedrock to keep local machines responsive.
+3. **Velocity Mobile (Career Engine):** Companion app housing the Skill Wallet, professional feed, Save-Gate approvals, and recruiter matchmaking. Keeps the IDE in "Zen mode."
 
 ---
 
-## 🧪 Test Cases & Examples
+## ☁️ Cloud-Native AWS Architecture
 
-| Feature | Scenario | AWS Implementation |
-|--------|----------|---------------------|
-| **User model choice** | User assigns Model A to backend and Model B to frontend. | Bedrock routes by user-selected model IDs per role. |
-| **Budget hardware** | Student on 4GB RAM runs a multi-agent session. | AppStream 2.0 runs the IDE in the cloud; device only streams. |
-| **Save-Gate** | Junior dev makes changes at 4 AM; lead is offline. | Draft stored; AI snapshot prepared; lead approves via Mobile or assigns co-leader. |
-| **Recruitment** | Company needs “Security Expert.” Candidate has no security title but fixed many vulns in-editor. | Nitro Enclave derives a “Security Specialist” skill hash from behavioral logs. |
-| **Novice → Pro** | Novice starts on Web, later uses Desktop. | Aurora Shared Memory + Context Janitor keep context so agents “resume” where they left off. |
 
----
 
-## ✨ Key Features (Summary)
-
-- **User-defined agents** — No fixed “Claude for logic, Gemini for UI.” You choose which model does what.
-- **Parallel orchestration** — Step Functions triggers your chosen agents at once for backend, frontend, and architecture.
-- **Context Janitor & Shared Memory** — Aurora-backed source of truth so agents and humans stay aligned and conflicts are prevented.
-- **Verified Skill Wallet** — Nitro Enclaves process behavior; only hashes and playbacks go to recruiters; you control what’s published.
-- **Save-Gate** — Real-time collab with owner (or co-leader) having final save; optional Emergency Merge Token to avoid bottlenecks.
-- **Triple platform** — Web for learning, Desktop for power, Mobile for career and approvals.
+### **AWS Service Mapping**
+* **Amazon Bedrock:** Multi-model AI orchestration (Cross-Region Inference).
+* **AWS Step Functions:** Parallel agent coordination and execution.
+* **AWS AppStream 2.0:** Cloud-streamed IDE delivery (Thin Client).
+* **Amazon Aurora (Vector):** Shared memory and Context Janitor embeddings.
+* **AWS Nitro Enclaves:** Secure, isolated behavioral profiling.
+* **Amazon Chime SDK:** In-IDE real-time voice, video, and screen sharing.
 
 ---
 
-## 🛠️ Setup Instructions
+## 🎬 Real-World Scenarios
+
+<details>
+<summary><b>🎓 Scenario 1: The Bharat Student (Hardware Access)</b></summary>
+A student on a 4GB RAM budget laptop opens Velocity Web. AWS AppStream 2.0 streams a high-performance workspace. They learn full-stack development without hardware limits, generating verified credentials for their Skill Wallet.
+</details>
+
+<details>
+<summary><b>⚡ Scenario 2: The Parallel Power-User (Multi-Agent Speed)</b></summary>
+A senior dev assigns Claude to backend logic and Gemini to UI inside Velocity Desktop. Step Functions runs both in parallel. The Context Janitor syncs the UI agent with the backend API instantly. A multi-hour task is done in minutes.
+</details>
+
+<details>
+<summary><b>🤝 Scenario 3: The Global Team Lead (Collaboration)</b></summary>
+A London dev finishes a draft at 4 AM. The Bangalore Lead opens Velocity Mobile, joins an in-editor call (Chime), reviews the AI summary, and uses the Save-Gate to execute the "Final Save." Zero merge conflicts.
+</details>
+
+<details>
+<summary><b>💼 Scenario 4: Frictionless Hiring (Skill Verification)</b></summary>
+A recruiter needs a System Design expert. Instead of reading a static resume, they watch a 30-second AI-narrated playback of a developer refactoring an API on Velocity. A Nitro Enclave “Verified” badge guarantees authenticity.
+</details>
+
+---
+
+## 🛠️ Quick Start & Deployment
 
 ### Prerequisites
+* AWS Account with **Bedrock** and **AppStream 2.0** access
+* Node.js 18+ and Python 3.11+
+* AWS CLI configured
+* Terraform
 
-- AWS Account with Bedrock (and optional AppStream 2.0) access  
-- Node.js 18+ and Python 3.11+  
-- AWS CLI configured  
-- Terraform or CloudFormation  
-
-### Quick Start
+### Installation
 
 ```bash
-# Clone the repository and enter the project directory
-git clone <repository-url>
+# Clone the repository
+git clone [https://github.com/yourusername/velocity.git](https://github.com/yourusername/velocity.git)
 cd velocity
 
 # Install dependencies
 npm install
 pip install -r requirements.txt
-
-# Configure AWS credentials
-aws configure
-
-# Deploy infrastructure
-cd infrastructure
-terraform init
-terraform apply -var="environment=demo"
-
-# Deploy Lambda functions
-cd ../lambda
-./deploy.sh
-
-# Start local development
-cd ../web
-npm run dev
-```
-
-### Environment Variables
-
-Set the following (or add to `.env`) before running. Replace placeholders with your AWS resource identifiers.
-
-| Variable | Description |
-|----------|-------------|
-| `AWS_REGION` | AWS region (e.g. `ap-south-1`) |
-| `AURORA_CLUSTER_ARN` | ARN of the Aurora cluster used for shared memory |
-| `BEDROCK_REGION` | Region where Bedrock is available (e.g. `us-east-1`) |
-| `COGNITO_USER_POOL_ID` | Cognito User Pool ID for authentication |
-| `APPSYNC_ENDPOINT` | AppSync GraphQL endpoint URL for real-time sync |
-| `APPSTREAM_FLEET_NAME` | AppStream 2.0 fleet name (for Web IDE) |
-
-### Testing
-
-```bash
-# Unit tests
-pytest tests/ --cov=src/
-
-# Integration tests
-npm run test:integration
-
-# Smoke tests
-python scripts/smoke_tests.py --environment demo
-```
-
----
-
-## 🚀 Future Improvements
-
-### Phase 2 (6–12 months)
-
-- [ ] Custom agent training on organization codebases  
-- [ ] Team productivity dashboards with AI insights  
-- [ ] Plugin marketplace and integrations  
-- [ ] White-label education / bootcamp use  
-- [ ] Enterprise SSO (SAML/LDAP)  
-
-### Phase 3 (12–24 months)
-
-- [ ] On-premise / self-hosted for strict compliance  
-- [ ] On-chain or other immutable credential options  
-- [ ] Global expansion (languages, regional compliance)  
-- [ ] Bring-your-own fine-tuned models  
-- [ ] AI-maintained test suites  
-
-### Long-Term Vision
-
-- [ ] Autonomous feature development with minimal guidance  
-- [ ] Multi-cloud deploy (AWS, Azure, GCP)  
-- [ ] Vertical-specific agents (fintech, healthcare, etc.)  
-- [ ] University partnerships for verified certification  
-- [ ] Global talent network centered on verified execution  
-
----
-
-## 👥 Team
-
-Velocity is built for the **AWS AI for Bharat Hackathon** (Student Track — AI for Learning & Developer Productivity).
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-
-- **AWS** for the infrastructure and AI services powering Velocity  
-- **Amazon Bedrock** for model-agnostic orchestration  
-- **AWS Nitro Enclaves** for privacy-first skill verification  
-- **Open Source Community** for the tools and libraries used  
-
----
-
-## 🏆 AWS AI for Bharat Hackathon
-
-**Track:** Student Track — AI for Learning & Developer Productivity  
-
-**Submission:** February 2026  
-
----
-
-<p align="center">
-  <strong>Built with ❤️ using AWS</strong><br>
-  Democratizing elite engineering for the AI era
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AWS-Bedrock-FF9900?logo=amazon-aws" alt="AWS Bedrock">
-  <img src="https://img.shields.io/badge/AWS-AppStream-FF9900?logo=amazon-aws" alt="AWS AppStream">
-  <img src="https://img.shields.io/badge/AWS-Nitro%20Enclaves-FF9900?logo=amazon-aws" alt="AWS Nitro Enclaves">
-  <img src="https://img.shields.io/badge/AWS-Step%20Functions-FF9900?logo=amazon-aws" alt="AWS Step Functions">
-</p>
